@@ -135,10 +135,3 @@ type pos struct {
 	Line  int
 	Index int
 }
-
-// not
-// 60387533 (low)
-// 58944830 (low)
-// 124035795
-
-// 66769383

@@ -34,7 +34,6 @@ func Part2() {
 				matches++
 			}
 		}
-		fmt.Println(cn, matches)
 
 		if matches != 0 {
 			for c := 0; c < cards[cn]; c++ {
@@ -45,7 +44,6 @@ func Part2() {
 		}
 
 	}
-	fmt.Println(cards)
 	totalcards := 0
 	for _, v := range cards {
 		totalcards += v
