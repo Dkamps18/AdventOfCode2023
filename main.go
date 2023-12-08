@@ -8,6 +8,7 @@ import (
 	"Dkamps18/AdventOfCode2023/day5"
 	"Dkamps18/AdventOfCode2023/day6"
 	"Dkamps18/AdventOfCode2023/day7"
+	"Dkamps18/AdventOfCode2023/day8"
 	"fmt"
 	"os"
 )
@@ -59,6 +60,12 @@ func main() {
 		break
 	case "day7-2":
 		day7.Part2()
+		break
+	case "day8-1":
+		day8.Part1()
+		break
+	case "day8-2":
+		day8.Part2()
 		break
 	default:
 		fmt.Println("Not found")
